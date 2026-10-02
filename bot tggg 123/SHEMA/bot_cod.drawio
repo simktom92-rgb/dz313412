@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net">
+  <diagram id="columns" name="Полная блок-схема кода бота">
+    <mxGraphModel grid="1" gridSize="10" page="1" pageWidth="1250" pageHeight="850" background="#07151F">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="ПОЛНАЯ БЛОК-СХЕМА КОДА БОТА ЗНАКОМСТВ" style="rounded=0;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;fontColor=#F3F5F7;fontFamily=Arial;fontSize=26;align=left;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="20" width="1190" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="h0" value="КЛАССЫ&#10;И СОСТОЯНИЕ" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#030709;strokeColor=#426078;fontColor=#F3F5F7;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="95" width="220" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="c0_0" value="Profile&#10;id · name · age · city&#10;photo · about · interests&#10;caption — подпись" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#083D2A;strokeColor=#43976C;fontColor=#F3F5F7;fontFamily=Arial;fontSize=15;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="175" width="220" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="c0_1" value="context.user_data&#10;demo_state:&#10;index · likes · skips" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#083D2A;strokeColor=#43976C;fontColor=#F3F5F7;fontFamily=Arial;fontSize=15;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="335" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c0_2" value="profile_form&#10;mode · field · draft&#10;Черновик заполнения" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#083D2A;strokeColor=#43976C;fontColor=#F3F5F7;fontFamily=Arial;fontSize=15;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="470" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="h1" value="ВЫХОДНЫЕ&#10;ДАННЫЕ" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#030709;strokeColor=#426078;fontColor=#F3F5F7;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="95" width="220" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_0" value="Пользователь видит:&#10;приветствие и меню&#10;фото и описание анкет" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#3C2807;strokeColor=#BF8A2B;fontColor=#F3F5F7;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="175" width="220" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_1" value="Пользователь получает:&#10;вопросы при заполнении&#10;подтверждение сохранения&#10;статистику действий" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#3C2807;strokeColor=#BF8A2B;fontColor=#F3F5F7;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="335" width="220" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_2" value="Действия:&#10;листать · лайк · пропуск&#10;создать свою анкету&#10;просмотреть · изменить" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#3C2807;strokeColor=#BF8A2B;fontColor=#F3F5F7;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="495" width="220" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="h2" value="БИБЛИОТЕКИ&#10;И РЕСУРСЫ" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#030709;strokeColor=#426078;fontColor=#F3F5F7;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="95" width="220" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_0" value="Python&#10;python-telegram-bot&#10;python-dotenv" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#272341;strokeColor=#8A7CB1;fontColor=#F3F5F7;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="175" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_1" value="Стандартные библиотеки&#10;asyncio · sqlite3 · json&#10;pathlib · dataclasses" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#272341;strokeColor=#8A7CB1;fontColor=#F3F5F7;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="290" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_2" value="bot.py&#10;.env — токен бота&#10;data/profiles.json" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#272341;strokeColor=#8A7CB1;fontColor=#F3F5F7;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="405" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_3" value="assets/ — изображения&#10;data/users.sqlite3&#10;База личных анкет" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#272341;strokeColor=#8A7CB1;fontColor=#F3F5F7;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="520" width="220" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="h3" value="МЕТОДЫ&#10;И СОБЫТИЯ" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#030709;strokeColor=#426078;fontColor=#F3F5F7;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="95" width="220" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_0" value="main()&#10;База → токен → обработчики&#10;run_polling()" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#382B09;strokeColor=#B59B43;fontColor=#F3F5F7;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="175" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_1" value="start() / handle_action()&#10;Команды и нажатия&#10;show_profile()" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#382B09;strokeColor=#B59B43;fontColor=#F3F5F7;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="290" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_2" value="receive_profile_input()&#10;Проверка полей&#10;Создание и редактирование" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#382B09;strokeColor=#B59B43;fontColor=#F3F5F7;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="405" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_3" value="get_own_profile()&#10;save_own_profile()&#10;show_own_profile() / cancel()" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#382B09;strokeColor=#B59B43;fontColor=#F3F5F7;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="520" width="220" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="h4" value="ВХОДНЫЕ&#10;ДАННЫЕ" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#030709;strokeColor=#426078;fontColor=#F3F5F7;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="95" width="220" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="c4_0" value="Команды&#10;/start — главное меню&#10;/profile — моя анкета&#10;/cancel — отменить" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#42291F;strokeColor=#B77858;fontColor=#F3F5F7;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="990" y="175" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="c4_1" value="Кнопки&#10;next · like · skip · stats&#10;own · create · edit&#10;menu · cancel" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#42291F;strokeColor=#B77858;fontColor=#F3F5F7;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="990" y="290" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="c4_2" value="Текст анкеты&#10;Имя ≤ 40 · город ≤ 60&#10;Возраст: 18–99&#10;Описание ≤ 600 символов" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#42291F;strokeColor=#B77858;fontColor=#F3F5F7;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="990" y="405" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c4_3" value="Фото пользователя&#10;Telegram photo → file_id&#10;Только в личном чате" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#42291F;strokeColor=#B77858;fontColor=#F3F5F7;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="990" y="540" width="220" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="code" value="class Profile:&#10;    caption&#10;&#10;main()&#10;    init_database()&#10;    handlers → run_polling()" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#DCE5EA;strokeColor=#99B7C5;fontColor=#215363;fontFamily=Courier New;fontSize=16;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="670" width="460" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="note" value="Telegram передаёт команды, сообщения и нажатия кнопок обработчикам.&#10;Бот показывает демо-анкеты и позволяет создать и изменить свою анкету.&#10;Личные анкеты сохраняются в SQLite; черновики и счётчики — в памяти.&#10;Лента пока содержит только 6 демо-анкет." style="rounded=0;whiteSpace=wrap;html=0;fillColor=#272341;strokeColor=#8A7CB1;fontColor=#F3F5F7;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="670" width="700" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
